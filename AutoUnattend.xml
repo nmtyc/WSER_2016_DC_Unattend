@@ -5,7 +5,6 @@
             <assemblyIdentity name="Microsoft-Windows-Foundation-Package" version="10.0.14393.0" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="" />
             <selection name="Windows-Defender" state="false" />
             <selection name="Windows-Defender-Features" state="false" />
-            <selection name="Internet-Explorer-Optional-amd64" state="false" />
             <selection name="SearchEngine-Client-Package" state="false" />
             <selection name="TFTP" state="true" />
             <selection name="TelnetClient" state="true" />
@@ -65,5 +64,5 @@
             <EnableLUA>false</EnableLUA>
         </component>
     </settings>
-    <cpi:offlineImage cpi:source="wim:e:/os_customizes/cn_windows_server_2016/install.wim#Windows Server 2016 SERVERDATACENTER" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
+    <cpi:offlineImage cpi:source="wim:e:/os_customizes/cn_windows_server_2016/iso/install.wim#Windows Server 2016 SERVERDATACENTER" xmlns:cpi="urn:schemas-microsoft-com:cpi" />
 </unattend>

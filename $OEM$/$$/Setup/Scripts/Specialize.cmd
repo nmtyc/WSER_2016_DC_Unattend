@@ -138,7 +138,8 @@ SCHTASKS /Change /TN "\Microsoft\Windows\Application Experience\StartupAppTask" 
 :: 默认 手动
 :: 管理并执行用于备份和其它用途的卷影复制。如果此服务被终止，备份将没有卷影复制，并且备份会失败。
 :: 如果此服务被禁用，任何依赖它的服务将无法启动。
-sc config VSS start= DISABLED
+:: 禁用后 Intel SSD tool Box 无法使用
+:: sc config VSS start= DISABLED
 
 @ECHO 	Print Spooler - Spooler
 :: 默认 自动
@@ -272,12 +273,14 @@ sc config UALSVC start= DISABLED
 :: 传输 WinRM 消息时使用 HTTP 和 HTTPS 协议。
 :: WinRM 服务不依赖于 IIS ，但在同一计算机上预配置为与 IIS 共享端口。WinRM 服务保留 /wsman URL 前缀。
 :: 若要防止与 IIS 发生冲突，管理员应确保 IIS 上承载的所有网站均不使用 /wsman URL 前缀。
-sc config WinRM start= DISABLED
+:: 禁用后 添加删除角色无法使用
+:: sc config WinRM start= DISABLED
 
 @ECHO 	Optimize drives - defragsvc
 :: 默认 - 手动
 :: 通过优化存储驱动器上的文件来帮助计算机更高效地运行。
-sc config defragsvc start= DISABLED
+:: 禁用后磁盘优化工具不可用
+:: sc config defragsvc start= DISABLED
 
 @ECHO 	luafv - luafv
 :: 默认 - 2
