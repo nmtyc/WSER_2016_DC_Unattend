@@ -1,0 +1,17 @@
+; 适用于 Windows Server 2016 SERVERDATACENTER
+
+[Version]
+signature="$CHICAGO$"
+Revision=1
+
+[Unicode]
+Unicode=yes
+
+[System Access]
+; 计算机配置 - Windows 设置 - 安全设置 - 账户策略 - 密码策略 - 密码最长使用期限
+; 无限制
+MaximumPasswordAge = -1
+
+; 计算机配置 - Windows 设置 - 安全设置 - 账户策略 - 密码策略 - 密码必须符合复杂性要求
+; 不要求密码复杂性要求, 即可以为空密码
+PasswordComplexity = 0

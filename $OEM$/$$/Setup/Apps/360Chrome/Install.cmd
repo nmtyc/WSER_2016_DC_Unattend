@@ -1,0 +1,1 @@
+START "" /D "%~DP0" /WAIT "360Chrome" /S2

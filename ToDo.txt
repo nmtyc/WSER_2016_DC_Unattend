@@ -1,0 +1,10 @@
+无法读取服务器服务中的服务器队列性能数据。数据段的第一个四字节 (DWORD) 中包含状态代码。第二个四字节包含 IOSB.Status，下一个四字节包含 IOSB.Information。 2005
+
+无法读取服务器服务的性能数据。数据部分的前四个字节(DWORD)包含状态代码，第二个四位字节包含 IOSB.Status，下一个四位字节包含 OSB.Information。2006
+
+激活应用 Microsoft.Windows.Cortana_cw5n1h2txyewy!CortanaUI 失败，错误: 内置管理员无法激活此应用。 请查看 Microsoft-Windows-TWinUI/运行日志以了解其他信息。 5973
+
+
+{D63B10C5-BB46-4990-A94F-E40B9D520160} 、APPID 为 {9CA88EE3-ACB7-47C8-AFC4-AB702511C276}  RuntimeBroker
+{8D8F4F83-3594-4F07-8369-FC3C3CAE4919}、APPID 为  {F72671A9-012C-4725-9D2F-2A4D32D65169}  CDP Activity Store
+{9BA05972-F6A8-11CF-A442-00A0C90A8F39} ShellWindows
